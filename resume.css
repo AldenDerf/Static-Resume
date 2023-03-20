@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(168, 170, 171);
+}
+
+.bond-paper{
+    background-color: white;
+    padding: 0;
+}
+
+.left{
+    background-color: #3d5a80;
+}
+.right {
+    background-color: white;
+}
+
+/* Technical profile */
+
+div.skill-con {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.skills-container {
+    width: 100%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+p.skill-desc {
+    margin: 1px;
+    font-size: 12px;
+}
+
+.html-css {
+    background-color: #A52A2A;
+    width: 70%;
+}

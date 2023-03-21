@@ -36,3 +36,30 @@ p.skill-desc {
     background-color: #A52A2A;
     width: 70%;
 }
+
+/* Certificates */
+.certification-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.certicate-desc {
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+.list-certification {
+    margin-bottom: 10px;
+}
+
+
+/* Right Side */
+/* Introduction */
+.introduction {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.right-title {
+    text-align: center;
+}

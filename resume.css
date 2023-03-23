@@ -5,29 +5,79 @@ body{
 .bond-paper{
     background-color: white;
     padding: 0;
-    max-width: 1170px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    height: auto;
 }
 /* Left */
+.section-container{
+    width: 100%;
+}
+.left-titles {
+    background-color: #191970;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
 .left{
     background-color: #3d5a80;
     padding-top: 25px;
+    padding-right: 0;
+    padding-left: 0;
+    
 }
 .right {
-    background-color: white;
+    
     padding-top: 30px;
+    background-color: white;
 }
 
+.custom-bg {
+    background-color: white ;
+}
+.name {
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: white;
+    
+}
+
+.designation{
+    color: rgb(212, 212, 212);
+    font-weight: lighter;
+    margin-top: 3px;
+}
 /* Id pic */
 .id-pic {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 50%;
     border: 5px solid white;
     
 }
+
+/* Contact */
+.contact table tr td{
+    padding-right: 10px;
+    padding-bottom: 7px;
+    color: rgb(212, 212, 212);
+}
+
+.contact-link {
+   color: rgb(212, 212, 212);
+    
+}
+
+.contact-link:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+
+
 
 /* Technical profile */
 
@@ -40,29 +90,95 @@ div.skills-container {
     width: 100%;
     background-color: gray;
     border-radius: 5px;
+    margin-left: 5px;
+    
 }
 
 p.skill-desc {
     margin: 1px;
-    font-size: 12px;
+    font-size: 14px;
+    color:  rgb(212, 212, 212);
 }
 
+.skill {
+    border-radius: 5px;
+    padding-left: 5px;
+    text-align: right;
+}
+
+/* tech skilss colors */
 .html-css {
-    background-color: #A52A2A;
+    background-color: orange;
     width: 70%;
+    border: 1px solid rgb(197, 197, 197);
 }
 
+.java-script {
+    background-color: yellow;
+    width: 80%;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.reactjs {
+    background-color: #318CE7;
+    width: 50%;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.php {
+    background-color: #926cbb;
+    width: 25%;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.mongoDB {
+    background-color: #799744;
+    width: 25%;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.sql {
+    background-color: #6f859a ;
+    width: 65%;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.nodejs{
+    background-color: #00FF7F;
+    width: 40%;
+    border: 1px solid rgb(197, 197, 197);
+}
 /* Certificates */
 .certification-title {
     margin: 0;
     font-weight: bold;
+    
+    
+}
+
+.certification-title a {
+    color: rgb(212, 212, 212);
+    text-decoration: underline;
+}
+
+.certification-title a:hover {
+    color: gold;
 }
 
 .certicate-desc {
     padding-left: 10px;
     font-weight: lighter;
+    color: rgb(212, 212, 212);
 }
 
+.certicate-desc a {
+    text-decoration: underline;
+    color: rgb(212, 212, 212);
+}
+
+.certicate-desc a:hover {
+    color: gold;
+}
 .list-certification {
     margin-bottom: 10px;
 }

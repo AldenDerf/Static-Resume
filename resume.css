@@ -8,8 +8,15 @@ body{
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     height: auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+    box-shadow: 7px 6px 5px -2px rgba(0, 0, 0, 0.66);
+        -webkit-box-shadow: 7px 6px 5px -2px rgba(0, 0, 0, 0.66);
+        -moz-box-shadow: 7px 6px 5px -2px rgba(0, 0, 0, 0.66);
+
 }
 /* Left */
 .section-container{
@@ -30,9 +37,9 @@ body{
     
 }
 .right {
-    
     padding-top: 30px;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 .custom-bg {
@@ -148,12 +155,20 @@ p.skill-desc {
     width: 40%;
     border: 1px solid rgb(197, 197, 197);
 }
+
 /* Certificates */
 .certification-title {
     margin: 0;
-    font-weight: bold;
-    
-    
+    font-weight: bold; 
+}
+
+.coding-certificates {
+    padding-bottom: 10px;
+}
+
+.certificate-in-coding {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .certification-title a {
@@ -189,21 +204,62 @@ p.skill-desc {
 .introduction {
     text-align: justify;
     text-indent: 1.5em;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mern-in-introduction {
+    cursor: default;
+}
+
+.html-tooltip {
+    cursor: default;
+}
+
+.css-tooltip {
+    cursor: default;
+}
+
+.php-tooltip {
+    cursor: default;
+}
+.intro-container {
+    margin-bottom: 10px;
 }
 
 .right-title {
     text-align: center;
+    background-color: #191970 ;
+    color: white;
+    padding: 5px;
+    margin-bottom: 25px;
 }
+
+.right-section-container {
+    width: 100%;
+}
+
+
 
 /* Work History */
 .work-history-container {
     display: grid;
     grid-template-columns: 25% auto;
     margin-bottom: 18px;
+    padding-left: 30px;
+    padding-right:30px;
 }
-.left-work-container,
+.left-work-container {
+   font-size: 16px;
+}
+
 .work-history-left {
-    border: 1px solid black;
+    font-size: 16px;
+}
+
+.sql-tooltip {
+    cursor: default;
 }
 
 /* Job title */
@@ -218,7 +274,33 @@ p.skill-desc {
 }
 
 .work-history-left ul li {
-    margin-bottom: 5px;
+    margin-bottom: 13px;
+}
+
+/* School */
+.bsit-tooltip {
+    cursor: default;
 }
 
 
+/* Media query < 768px */
+@media only screen and (max-width: 768px) {
+    .bond-paper {
+        display: block;
+        margin: 0;
+    }
+
+    .right {
+        margin-bottom: 0;
+        padding-bottom: 25px;
+    }
+
+    .introduction {
+        padding: 0;
+    }
+
+    .work-history-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

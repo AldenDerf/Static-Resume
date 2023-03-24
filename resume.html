@@ -38,7 +38,7 @@
         "
     >
         <!-- left -->
-        <div class="col-sm-4  d-flex align-items-stretch left ">
+        <div class=" left ">
             <!-- Picture -->
             <div class="container-fluid text-center">
                 <img src="https://res.cloudinary.com/dqs4lto99/image/upload/v1678093941/wgxt8xzqishbbgbrgenz.jpg"
@@ -142,7 +142,9 @@
                     <!-- HTML & CSS -->
                     <div class='technical-profile'>
                         <div class="skill-con">
-                            <p class='skill-desc'>HTML & CSS</p>
+                            <p class='skill-desc'>
+                                <span class='html-tooltip' title='HyperText Markup Language'>HTML</span> & 
+                                <span class='css-tooltip' title='Cascading Style Sheet'>CSS</span></p>
                             <div class="skills-container">
                                 <div class="skill html-css">
                                     70%
@@ -184,7 +186,7 @@
                     <div class='technical-profile'>
                         <div class="skill-con">
                             <p class='skill-desc'>
-                                PHP
+                                <span class='php-tooltip' title='HyperText Preprocessor'>PHP</span>
                             </p>
                             <div class="skills-container">
                                 <div class="skill php">
@@ -212,7 +214,7 @@
                     <div class='technical-profile'>
                         <div class="skill-con">
                             <p class='skill-desc'>
-                                SQL
+                                <span class='sql-tooltip' title='Structure Query Language'>SQL</span>
                             </p>
                             <div class="skills-container">
                                 <div class="skill sql">
@@ -241,7 +243,7 @@
             </div>
 
             <!-- Certificates -->
-            <div class="section-container">
+            <div class="section-container certificate-in-coding">
                 <h3 class='certificate-title left-titles container-fluid'>
                     Coding Certificates
                 </h3>
@@ -252,7 +254,7 @@
                         <div class="list-certification">
                             <!-- Certificate Title -->
                             <p class="certification-title">
-                                <a href="" target="_blank">
+                                <a href="https://www.freecodecamp.org/certification/AldenDerf/responsive-web-design" target="_blank">
                                     <i class="fa-solid fa-certificate"></i>
                                     Responsive Web Design
                                 </a>
@@ -268,7 +270,7 @@
                         <div class="list-certification">
                             <!-- Certificate Title -->
                             <p class="certification-title">
-                                <a href="" target="_blank">
+                                <a href="https://drive.google.com/file/d/1xMCESRTkHI52rVueYeruZcNBkvl8H0_U/view?usp=share_link" target="_blank">
                                     <i class="fa-solid fa-certificate"></i>
                                     Web Development for Web Developers
                                 </a>
@@ -279,7 +281,7 @@
                                 class="certicate-desc text-muted dict-tooltip"
                                 title="Department of Information and Communication Technology"
                             >- by: <a 
-                                href="https://www.freecodecamp.org/" 
+                                href="https://dict.gov.ph/" 
                                 target="_blank">
                                 DICT</a></small>
                         </div>
@@ -290,7 +292,7 @@
                         <div class="list-certification">
                             <!-- Certificate Title -->
                             <p class="certification-title">
-                                <a href="" target="_blank">
+                                <a href="https://drive.google.com/file/d/1ugSBzLm574BPxVbU4ZV82j4s7vxN2nAg/view?usp=share_link" target="_blank">
                                     <i class="fa-solid fa-certificate"></i>
                                     <span 
                                         class="mern-tooltip"
@@ -303,7 +305,7 @@
                                 class="certicate-desc text-muted dict-tooltip"
                                 title="Department of Information and Communication Technology"
                             >- by: <a 
-                                href="" 
+                                href="https://dict.gov.ph" 
                                 target="_blank">
                                 DICT</a></small>
                         </div>
@@ -318,15 +320,20 @@
 
 
         <!-- right -->
-        <div class="col-sm-8 custom-bg d-flex align-items-stretch right" >
+        <div class=" right" >
 
             <!-- Introduction -->
-            <div class="container-fluid">
+            <div class="container-fluid intro-container">
                 <p class="introduction">
                                         Highly motivated and skilled Junior Web Developer with a Bachelor of
-                    Science in Information Technology and experience in MERN stack development.
+                    Science in Information Technology and experience in 
+                    <span class="mern-tooltip mern-in-introduction"
+                            title="MongoDB, Express, React, and Node.js ">MERN</span> 
+                    stack development.
                     Strong understanding of web development principles and technologies, including
-                    JavaScript, HTML, CSS, and ReactJS. Proven ability to design, develop, and maintain
+                    JavaScript, 
+                    <span class='html-tooltip' title='HyperText Markup Language'>HTML</span>, 
+                    <span class='css-tooltip' title='Cascading Style Sheet'>CSS</span>, and ReactJS. Proven ability to design, develop, and maintain
                     responsive web applications. Recent experience in Web Development Bootcamp.
                     Strong problem-solving skills and ability to work well in a team environment.
                 </p>
@@ -335,10 +342,10 @@
             <!-- Work History -->
             
             <div class="container-fluid d-flex justify-content-center">
-                <h2 class="right-title">Work History</h2>
+                <h3 class="right-title">Work History</h3>
 
                 <!-- Batanes General Hospital -->
-                <div class ="work-history-container">
+                <div class ="work-history-container ">
                     
                     <div class= "left-work-container">
                         <p class="date">2022-02 - 2022-08</p>
@@ -351,7 +358,9 @@
                         </p>
 
                         <ul>
-                            <li>Analyzed and designed a relational database in SQL for a VB.NET "Leave Management System" project.</li>
+                            <li>Analyzed and designed a relational database in 
+                                <span class='sql-tooltip' title='Structured Query Language'>SQL</span> 
+                                for a VB.NET "Leave Management System" project.</li>
 
                             <li>
                                 Used Microsoft Visual Studio and VB.NET packages to test, modify code, and work to implement a system into a system.
@@ -406,7 +415,6 @@
 
 
             <!-- Education -->
-            
             <div class="container-fluid d-flex justify-content-center">
                 <h2 class="right-title">Education</h2>
             
@@ -418,7 +426,8 @@
                     </div>
             
                     <div class="work-history-left">
-                        <h4>BSIT</h4>
+                        <h4 class='bsit-tooltip' title='Bachelor of Science of Information Technology'
+                        >BSIT</h4>
                         <p class='work-desc'>
                             University of Cagayan Valley
                         </p>
